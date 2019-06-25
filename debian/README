@@ -1,0 +1,7 @@
+The Debian Package kgp-database
+-------------------------------
+
+This package provides dependencies and adaptations on a default
+database components for the KGP project. (Currently MariaDB)
+
+ -- Tor Krill <tor@openproducts.se>  Tue, 25 Jun 2019 11:38:03 +0200

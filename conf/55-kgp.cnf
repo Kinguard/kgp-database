@@ -1,0 +1,3 @@
+# this is only for the mysqld standalone daemon
+[mysqld]
+datadir		= /var/opi/mysql
