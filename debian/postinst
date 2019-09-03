@@ -77,7 +77,7 @@ case "$1" in
 			chown -h -R mysql:mysql /var/opi/mysql
 
 			# Initialise db-storage on new location
-			/usr/bin/mysql_install_db --skip-auth-anonymous-user --auth-root-authentication-method=socket --rpm --cross-bootstrap --user=mysql --disable-log-bin 2>&1
+			/usr/bin/mysql_install_db --skip-test-db --auth-root-authentication-method=socket --rpm --cross-bootstrap --user=mysql --disable-log-bin 2>&1
 		fi
 
 
