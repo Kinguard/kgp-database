@@ -1,3 +1,9 @@
+kgp-database (1.0) vili; urgency=medium
+
+  * Buster release
+
+ -- Tor Krill <tor@openproducts.se>  Tue, 07 Sep 2021 09:23:39 +0200
+
 kgp-database (1.0~test3) vili; urgency=medium
 
   * Remove removed cmd option to mysql_install_db
